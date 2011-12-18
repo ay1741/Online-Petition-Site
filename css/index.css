@@ -1,0 +1,98 @@
+/* Font Stuff */
+@import url('fonts/fonts.css');
+@import url('reset.css');
+
+/* Main Constants */
+html {
+background: #E6E6DC;
+}
+
+body {
+font-family:'Myriad Pro', Arial, sans-serif;
+font-size: 15px;
+}
+
+a:link {color:#9BE1FB;}      /* unvisited link */
+a:visited {color:#9BE1FB;}  /* visited link */
+a:hover {color:#BD2031;}  /* mouse over link */
+a:active {color:#BD2031;}  /* selected link */
+
+/* Main Area */
+#body {
+position: relative;
+top: 15px;
+width: 960px;
+margin: 0px auto 0;
+z-index: 1;
+}
+
+/* Splitter */
+#header {
+position: fixed;
+height: 60px;
+width: 100%;
+margin: 0px auto 0;
+z-index: 3;
+padding-bottom: 5px;
+padding-top: 5px;
+padding-right: 0px;
+padding-left: 0px;
+-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;
+
+background-image: linear-gradient(bottom, rgb(32,122,158) 32%, rgb(0,97,139) 66%, rgb(0,97,139) 83%);
+background-image: -o-linear-gradient(bottom, rgb(32,122,158) 32%, rgb(0,97,139) 66%, rgb(0,97,139) 83%);
+background-image: -moz-linear-gradient(bottom, rgb(32,122,158) 32%, rgb(0,97,139) 66%, rgb(0,97,139) 83%);
+background-image: -webkit-linear-gradient(bottom, rgb(32,122,158) 32%, rgb(0,97,139) 66%, rgb(0,97,139) 83%);
+background-image: -ms-linear-gradient(bottom, rgb(32,122,158) 32%, rgb(0,97,139) 66%, rgb(0,97,139) 83%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.32, rgb(32,122,158)),
+	color-stop(0.66, rgb(0,97,139)),
+	color-stop(0.83, rgb(0,97,139))
+);
+
+}
+
+#insideheader {
+position: relative;
+width: 960px;
+padding-top: 8px;
+margin: 0px auto 0;
+z-index: 3;
+}
+
+#nav {
+position: relative;
+height: 120px;
+-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;
+
+background-image: linear-gradient(bottom, rgb(148,181,165) 32%, rgb(129,165,148) 66%, rgb(129,165,148) 83%);
+background-image: -o-linear-gradient(bottom, rgb(148,181,165) 32%, rgb(129,165,148) 66%, rgb(129,165,148) 83%);
+background-image: -moz-linear-gradient(bottom, rgb(148,181,165) 32%, rgb(129,165,148) 66%, rgb(129,165,148) 83%);
+background-image: -webkit-linear-gradient(bottom, rgb(148,181,165) 32%, rgb(129,165,148) 66%, rgb(129,165,148) 83%);
+background-image: -ms-linear-gradient(bottom, rgb(148,181,165) 32%, rgb(129,165,148) 66%, rgb(129,165,148) 83%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.32, rgb(148,181,165)),
+	color-stop(0.66, rgb(129,165,148)),
+	color-stop(0.83, rgb(129,165,148))
+);
+}
+
+#insidenav {
+position: relative;
+width: 960px;
+top: 78px;
+margin: 0px auto 0;
+z-index: 3;
+}

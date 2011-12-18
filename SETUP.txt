@@ -1,0 +1,33 @@
+Hi,
+
+I made this one day because my school had done something and I wanted it reverted so I decided to make a petition website overnight (I stayed up till 5:30 in the morning). I never released the site for that petition but decided it would be nice to give it out to people. In the future I hope to make it much easier to configure this for everyone's system. 
+
+I hope you all like it!
+
+Cheers,
+Petros Ring
+Tea and Cookies Web Studios
+
+Requirements:
+To set this up this small petition site you need a LAMP (Linux, Apache, MySQL, PHP) server at the bare minimum.
+
+_______________________________________________________________________________________________________________________________________________________________________
+
+Databases:
+Once you have this set up you will need to add two databases so that you can have a place to store and receive your information. 
+Open up PHPmyAdmin and head into the import section. 
+Upload the localhost.sql file that is stored in the db folder.
+Your databases are set up! Good job!
+
+Connecting to the MySQL Server:
+I'm sorry but I haven't set up an automatic way to put in the credentials everywhere yet. So we're going to have to do it manually.
+First open up the comments.php, sumbit.php, and view.php pages and put in the DATABASE LOCATION, DATABASE USERNAME, and DATABASE PASSWORD in the locations it shows to do so.
+
+Using database tables that came with the site:
+First open up the comments.php page and put the database name as unitlunch_comment and set the TABLE_NAME as commenttable.
+Next open up submit.php and view.php and set the database name as unitlunch_petition and set the TABLE_NAME as allset.
+Your all set, you now have a functioning petition. Great job!
+
+Not using database tables that came with the site:
+You will need to change the put your own custom DATABASE NAME and TABLE_NAME
+You will also have to set up your own tables, use should probably use the included DB as an example.
